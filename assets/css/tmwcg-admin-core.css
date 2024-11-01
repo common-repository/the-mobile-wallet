@@ -1,0 +1,93 @@
+#toplevel_page_pc-digital-card .wp-menu-image img{
+    max-width: 30px;
+    margin-top: -6px;
+}
+.opening_hours_tr label{ display: inline-block;min-width: 90px;}
+.wrap.digital-card-wrap input[type=text],.wrap.digital-card-wrap textarea,.wrap.digital-card-wrap select{width: 100%;;}
+
+.digital-card-wrap {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 5px 20px;
+}
+
+.digital-card-wrap-container {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.digital-card-wrap {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.digital-card-wrap h1 {
+    margin-top: 0;
+}
+
+.digital-card-wrap form {
+    margin-bottom: 20px;
+}
+
+.digital-card-wrap table {
+    width: 100%;
+}
+
+.digital-card-wrap th {
+    width: 30%;
+    font-weight: bold;
+}
+
+.digital-card-wrap td {
+    width: 70%;
+}
+
+.digital-card-wrap input[type="text"],
+.digital-card-wrap textarea,
+.digital-card-wrap select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.digital-card-wrap select {
+    width: calc(100% - 18px);
+}
+
+.digital-card-wrap input[type="submit"] {
+    width: auto;
+    display: inline-block;
+    padding: 8px 20px;
+	float:right;
+}
+
+.digital-card-wrap p {
+    margin-bottom: 10px;
+}
+.rv_image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.rv_remove-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.remove-image-button{ cursor: pointer;}
